@@ -12,7 +12,7 @@ module.exports = {
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
     READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
-    PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
+    PMB_VAR: convertToBool(process.env.PMB_VAR) ||true,
     PMB: process.env.PMB || '*Personal messages not allowed. Blocking you!*',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
     USERNAME: process.env.USERNAME || 'Fsayang Phya',
